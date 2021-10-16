@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home / Twitter</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <!-- sidebar part of twitter -->
+      <div class="sidebar">
+        <a href="#"><i style="cursor: pointer" class="fab fa-twitter"></i></a>
+        <!-- <div class="sidebar-inner"> -->
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="fas fa-home"></i></span>
+            <p>Home</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="fas fa-hashtag"></i></span>
+            <p>Explore</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="far fa-bell"></i></span>
+            <p>Notifications</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="far fa-envelope"></i></span>
+            <p>Messages</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="far fa-bookmark"></i></span>
+            <p>Bookmarks</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="fas fa-list-ul"></i></span>
+            <p>Lists</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="far fa-user"></i></span>
+            <p>Profile</p></a
+          >
+        </div>
+        <div class="sidebar-item">
+          <a href="#" style="display: flex"
+            ><span><i class="fas fa-ellipsis-h"></i></span>
+            <p>More</p></a
+          >
+        </div>
+        <button class="tweet-button">Tweet</button>
+        <i id="tweet-icon" class="fas fa-feather-alt"></i>
+        <div class="profile">
+          <img
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div class="profile-data">
+            <p style="margin: 0">Gopal_Bharadva</p>
+            <small>@Gopal_33_gb</small>
+          </div>
+          <i id="profile-menu" class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+      <!-- tweet part of twitter -->
+      <div class="tweet-div">
+        <div class="tweet-home">
+          <p>Home</p>
+          <a href="#"><i class="fas fa-bahai"></i></a>
+        </div>
+        <div class="tweet">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-box">
+              <input type="text" placeholder="What's happening" />
+              <!-- <a href="#"
+                ><i style="cursor: pointer" class="fas fa-globe-asia"></i>
+                Everyone can reply</a
+              > -->
+            </div>
+            <div class="tweet-tools">
+              <div style="padding: 0.5rem 0">
+                <i class="fas fa-image"></i>
+                <i class="far fa-images"></i>
+                <i class="fas fa-poll-h"></i>
+                <i class="far fa-laugh"></i>
+                <i class="far fa-clock"></i>
+              </div>
+              <button disabled>Tweet</button>
+            </div>
+          </div>
+          <div class="tweet-feature"></div>
+        </div>
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p
+              style="
+                margin: 0;
+                font-size: 1rem;
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+              "
+            >
+              One needs to change self first to change the other things. So
+              starts changing the things from your inside.
+            </p>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <ul style="list-style: none; margin: 0; padding: 0 0 1rem 0">
+              <li>Man: Looking for the Attention.</li>
+              <li>Genius: Looking for the Respect.</li>
+              <li>Legends: They don't care.</li>
+            </ul>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p
+              style="
+                margin: 0;
+                font-size: 1rem;
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+              "
+            >
+              Coding karoge to give up nahi kar paoge aur agar give up karoge to
+              coding nahi kar paoge.😇
+              <a href="#" style="color: #1d9bf0">@tanaypratap</a>
+            </p>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p
+              style="
+                margin: 0;
+                font-size: 1rem;
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+              "
+            >
+              One needs to change self first to change the other things. So
+              starts changing the things from your inside.
+            </p>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <ul style="list-style: none; margin: 0; padding: 0 0 1rem 0">
+              <li>Man: Looking for the Attention.</li>
+              <li>Genius: Looking for the Respect.</li>
+              <li>Legends: They don't care.</li>
+            </ul>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="prev-tweets">
+          <img
+            style="cursor: pointer"
+            src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+            alt="Sorry image not available."
+          />
+          <div style="width: 100%">
+            <div class="tweet-header">
+              <div class="username">
+                <p>Gopal_Bharadva</p>
+                <a href="#">@Gopal_33_gb . Sep 30</a>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <p
+              style="
+                margin: 0;
+                font-size: 1rem;
+                padding-bottom: 1rem;
+                display: flex;
+                flex-direction: column;
+              "
+            >
+              Coding karoge to give up nahi kar paoge aur agar give up karoge to
+              coding nahi kar paoge.😇
+              <a href="#" style="color: #1d9bf0">@tanaypratap</a>
+            </p>
+            <div class="tweet-options">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-external-link-alt"></i>
+              <i class="far fa-chart-bar"></i>
+            </div>
+          </div>
+        </div>
+        <div class="features">
+          <i class="fas fa-home"></i>
+          <i class="fas fa-search"></i>
+          <i class="far fa-bell"></i>
+          <i class="far fa-envelope"></i>
+        </div>
+      </div>
+      <!-- current Trending parts -->
+      <div class="current-trend">
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search Twitter" />
+        </div>
+        <div class="trend">
+          <h3 style="margin: 1rem">What’s happening</h3>
+          <div class="sub-trend">
+            <div class="trend-text">
+              <small>IPL 2021.LIVE</small>
+              <p style="margin: 0">
+                CSK v PBKS: Chennai Super Kings take on Punjab Kings
+              </p>
+            </div>
+            <img src="Images/ipl.jpg" alt="soory image not available" />
+          </div>
+          <div class="sub-trend">
+            <div class="trend-text">
+              <small>Sports · Trending</small>
+              <p style="margin: 0">#T20WorldCup2021</p>
+              <small>3,718 Tweets</small>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="sub-trend">
+            <div class="trend-text">
+              <small>Trending in India</small>
+              <p style="margin: 0">iPhone 11</p>
+              <small>Trending in #AmazonMADDealsOnMobiles </small>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+
+        <div class="trend">
+          <h3 style="margin: 1rem 1rem 0 1rem">Who to follow</h3>
+          <div class="follow-account">
+            <div style="display: flex">
+              <img
+                src="Images/190173116003_GOPAL_BHARADVA_PH.jpg"
+                alt="Sorry image not available."
+              />
+              <div class="profile-data" style="margin-left: 1rem">
+                <p style="margin: 0">Gopal_Bharadva</p>
+                <small>@Gopal_33_gb</small>
+              </div>
+            </div>
+            <button class="follow-btn">Follow</button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
